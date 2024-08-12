@@ -7,6 +7,7 @@ connectToDatabase()
   .then(() => {
     app.listen(PORT, () =>
       console.log("Server Open & Connected To Database 🤟")
+      console.log("AUTH Service is Online")
     );
   })
   .catch((err) => console.log(err));
