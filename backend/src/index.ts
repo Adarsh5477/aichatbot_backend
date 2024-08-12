@@ -7,7 +7,7 @@ connectToDatabase()
   .then(() => {
      app.listen(PORT,'0.0.0.0', () => {
         console.log("Server Open & Connected To Database 🤟")
-        console.log("GenAI Service is Online")
+        console.log("CODE Generation Service is Online")
     });
   })
   .catch((err) => console.log(err));
